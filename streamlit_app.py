@@ -2,8 +2,9 @@ import streamlit as st
 
 pages = {
     "YouTube": [
-        st.Page("route/download.py", title="Download"),
         st.Page("route/search.py", title="Search"),
+        st.Page("route/audio.py", title="Download Audio"),
+        # st.Page("route/audio.py", title="Download Video"),
         # st.Page("trial.py", title="Try it out"),
     ],
     # "Thank You For Coming": [

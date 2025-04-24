@@ -5,14 +5,14 @@ from fx import mk_base, download_audio, LyscnDir
 from io import BytesIO
 from pathlib import Path
 
-METAINFO = {
-    "title": "Lyscn",
-    "icon": "🌊",
-    "dir": "/audio"
-}
+# METAINFO = {
+#     "title": "Lyscn",
+#     "icon": "🌊",
+#     "dir": "/audio"
+# }
 # audio_dir = Path.home() / "Lyscn" / "Audio"
-audio_dir = Path.cwd() / "Audio"
-audio_dir.mkdir(parents=True, exist_ok=True)
+# audio_dir = Path.cwd() / "Audio"
+# audio_dir.mkdir(parents=True, exist_ok=True)
 
 
 
