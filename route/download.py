@@ -49,7 +49,7 @@ def yt_download_song(link: str):
                 st.toast(f"Downloading: {filename}")
         os.remove(filepath)
 
-st.write("Download YouTube Link")
+st.write("Download YouTube Audio")
 link_input = st.text_input(label="Link")
 download_button = st.button("Get")
 if download_button:

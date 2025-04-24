@@ -17,7 +17,6 @@ def handle_music_search(query: str):
 {index+1}. {song["title"]} _by_ {song["artists"][0]["name"]}
 _Link:_ https://music.youtube.com/watch?v={song["videoId"]}
 """
-
     return formatted_result
 
 
@@ -25,7 +24,9 @@ _Link:_ https://music.youtube.com/watch?v={song["videoId"]}
 if "history" not in st.session_state:
     st.session_state.history = []
     
-    
+
+st.write("Search YouTube")
+
 # Display chat history from history on app rerun
 for history in st.session_state.history:
     with st.chat_message(history["role"], avatar=history["avatar"]):
